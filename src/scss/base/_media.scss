@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 20px 15px 20px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 35px;
+            &_title {
+                margin-top: 5px;
+            }
+            &_descr {
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        &__logo {
+            img {
+                width: 70%;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        button {
+            display: none;
+        }
+    }
+
+    .promo {
+        padding: 20px 10px 20px 10px;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__icons {
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        &__icon {
+            margin-bottom: 15px;
+        }
+    }
+
+    .button {
+        &_main {
+            margin-top: 25px;
+            width: 270px;
+        }
+    }
+
+    .advantages {
+        padding: 25px 0 25px 0;
+        &__title {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+        &__logo {
+            width: 210px;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__phone {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+        button {
+            display: none;
+        }
+    }
+    .promo {
+        min-height: 350px;
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+    }
+}
