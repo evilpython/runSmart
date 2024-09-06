@@ -171,6 +171,28 @@
 			font-size: 14px;
 		}
 	}
+
+	.footer {
+		&__info {
+			position: relative;
+			max-width: 100%;
+			width: 100%;
+			padding: 30px 40px 30px 40px;
+		}
+		&__address,
+		&__phone {
+			font-size: 15px;
+		}
+		&-social {
+			&__link {
+				width: 40px;
+				height: 40px;
+				img {
+					height: 17px;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 420px) {
