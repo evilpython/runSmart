@@ -1,0 +1,32 @@
+.feedback {
+	padding-bottom: 48px;
+	&-item {
+		margin-top: 60px;
+		margin-bottom: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__userpic {
+		}
+		&__userinfo {
+			width: 680px;
+		}
+	}
+	&__username {
+		font-size: 18px;
+		font-weight: 700;
+		color: #0d0d0d;
+	}
+	&__results {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+	}
+	&__text {
+		margin-top: 10px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 150%;
+		color: #0d0d0d;
+	}
+}
