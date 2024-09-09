@@ -1,240 +1,252 @@
 @media (max-width: 1200px) {
-	.promo {
-		padding: 20px 15px 20px 15px;
-	}
+  .promo {
+    padding: 20px 15px 20px 15px;
+  }
 }
 
 @media (max-width: 991px) {
-	.consultation {
-		padding: 30px 15px 30px 15px;
-	}
+  .consultation {
+    padding: 30px 15px 30px 15px;
+  }
 
-	.feedback {
-		padding: 0 15px 30px 15px;
-	}
+  .feedback {
+    padding: 0 15px 30px 15px;
+  }
 }
 
 @media (max-width: 920px) {
-	.feedback {
-		&-item {
-			&__userpic {
-				display: none;
-			}
-			&__userinfo {
-				margin: 0 auto;
-			}
-		}
-	}
+  .feedback {
+    &-item {
+      &__userpic {
+        display: none;
+      }
+      &__userinfo {
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 900px) {
-	.catalog {
-		padding: 0 15px 30px 15px;
-		&__content {
-			justify-content: space-around;
-		}
-	}
+  .catalog {
+    padding: 0 15px 30px 15px;
+    &__content {
+      justify-content: space-around;
+    }
+  }
 }
 
 @media (max-width: 768px) {
-	.header {
-		&__official {
-			display: none;
-		}
-	}
+  .header {
+    &__official {
+      display: none;
+    }
+  }
 
-	.promo {
-		&__wrapper {
-			align-items: center;
-		}
-		&__header {
-			font-size: 30px;
-			text-align: center;
-		}
-		&__subheader {
-			font-size: 18px;
-			text-align: center;
-		}
-	}
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+    &__header {
+      font-size: 30px;
+      text-align: center;
+    }
+    &__subheader {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
 
-	.advantages {
-		&__wrapper {
-			margin-top: 20px;
-			flex-direction: column;
-			align-items: center;
-		}
-		&__item {
-			margin-top: 35px;
-			&_title {
-				margin-top: 5px;
-			}
-			&_descr {
-				margin-top: 5px;
-			}
-		}
-	}
+  .advantages {
+    &__wrapper {
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-top: 35px;
+      &_title {
+        margin-top: 5px;
+      }
+      &_descr {
+        margin-top: 5px;
+      }
+    }
+  }
 
-	.consultation {
-		text-align: center;
-		.title {
-			font-size: 30px;
-			text-align: center;
-		}
-		.feed-form {
-			margin: 20px auto 20px auto;
-		}
-	}
+  .consultation {
+    text-align: center;
+    .title {
+      font-size: 30px;
+      text-align: center;
+    }
+    .feed-form {
+      margin: 20px auto 20px auto;
+    }
+  }
 }
 
 @media (max-width: 576px) {
-	.header {
-		&__logo {
-			img {
-				width: 70%;
-			}
-		}
-		&__phone {
-			font-size: 15px;
-			margin-bottom: 0;
-		}
-		button {
-			display: none;
-		}
-	}
+  .header {
+    &__logo {
+      img {
+        width: 70%;
+      }
+    }
+    &__phone {
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+    button {
+      display: none;
+    }
+  }
 
-	.promo {
-		padding: 20px 10px 20px 10px;
-		&__wrapper {
-			margin-top: 25px;
-		}
-		&__icons {
-			margin-top: 10px;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-		}
-		&__icon {
-			margin-bottom: 15px;
-		}
-	}
+  .promo {
+    padding: 20px 10px 20px 10px;
+    &__wrapper {
+      margin-top: 25px;
+    }
+    &__icons {
+      margin-top: 10px;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    &__icon {
+      margin-bottom: 15px;
+    }
+  }
 
-	.button {
-		&_main {
-			margin-top: 25px;
-			width: 270px;
-		}
-	}
+  .button {
+    &_main {
+      margin-top: 25px;
+      width: 270px;
+    }
+  }
 
-	.advantages {
-		padding: 25px 0 25px 0;
-		&__title {
-			font-size: 25px;
-		}
-	}
+  .advantages {
+    padding: 25px 0 25px 0;
+    &__title {
+      font-size: 25px;
+    }
+  }
 
-	.consultation {
-		min-height: 350px;
-	}
+  .consultation {
+    min-height: 350px;
+  }
 
-	.carousel {
-		padding-bottom: 35px;
-	}
+  .carousel {
+    padding-bottom: 35px;
+  }
 
-	.catalog {
-		&__tabs {
-			flex-direction: column;
-			margin-top: 0;
-		}
-		&__tab {
-			margin-bottom: 5px;
-			font-size: 16px;
-			width: 170px;
-			height: 40px;
-			line-height: 40px;
-		}
-		.title {
-			font-size: 20px;
-			margin-bottom: 20px;
-		}
-	}
+  .catalog {
+    &__tabs {
+      flex-direction: column;
+      margin-top: 0;
+    }
+    &__tab {
+      margin-bottom: 5px;
+      font-size: 16px;
+      width: 170px;
+      height: 40px;
+      line-height: 40px;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
 
-	.feedback {
-		.title {
-			font-size: 20px;
-			margin-bottom: 20px;
-		}
-		&-item {
-			margin-top: 0;
-			margin-bottom: 20px;
-		}
-		&__text {
-			font-size: 14px;
-		}
-	}
+  .feedback {
+    .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    &-item {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 14px;
+    }
+  }
 
-	.footer {
-		&__info {
-			position: relative;
-			max-width: 100%;
-			width: 100%;
-			padding: 30px 40px 30px 40px;
-		}
-		&__address,
-		&__phone {
-			font-size: 15px;
-		}
-		&-social {
-			&__link {
-				width: 40px;
-				height: 40px;
-				img {
-					height: 17px;
-				}
-			}
-		}
-	}
+  .footer {
+    &__info {
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      padding: 30px 40px 30px 40px;
+    }
+    &__address,
+    &__phone {
+      font-size: 15px;
+    }
+    &-social {
+      &__link {
+        width: 40px;
+        height: 40px;
+        img {
+          height: 17px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 420px) {
-	.header {
-		&__logo {
-			width: 210px;
-		}
-	}
+  .header {
+    &__logo {
+      width: 210px;
+    }
+  }
 
-	.consultation {
-		.title {
-			font-size: 20px;
-		}
-		&__descr {
-			font-size: 16px;
-		}
-		.feed-form {
-			width: 280px;
-		}
-	}
+  .consultation {
+    .title {
+      font-size: 20px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    .feed-form {
+      width: 280px;
+    }
+  }
+
+  .modal {
+    width: 310px;
+    padding: 20px 10px 20px 10px;
+    &__close {
+      top: -30px;
+      right: 0;
+    }
+    .feed-form {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 380px) {
-	.header {
-		&__logo {
-			width: 180px;
-		}
-		&__phone {
-			font-size: 13px;
-			margin-bottom: 0;
-		}
-		button {
-			display: none;
-		}
-	}
-	.promo {
-		min-height: 350px;
-		&__header {
-			font-size: 25px;
-		}
-		&__subheader {
-			font-size: 15px;
-		}
-	}
+  .header {
+    &__logo {
+      width: 180px;
+    }
+    &__phone {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+    button {
+      display: none;
+    }
+  }
+  .promo {
+    min-height: 350px;
+    &__header {
+      font-size: 25px;
+    }
+    &__subheader {
+      font-size: 15px;
+    }
+  }
 }
