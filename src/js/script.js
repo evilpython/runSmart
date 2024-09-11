@@ -71,4 +71,48 @@ $(document).ready(function () {
       $(".overlay, #order").fadeIn();
     });
   });
+
+  $("#consultation-form").validate({
+    rules: {
+      name: "required",
+      phone: "required",
+      email: {
+        required: true,
+        email: true,
+      },
+    },
+    messages: {
+      name: "Пожалуйста, введите своё имя",
+      phone: "Нам необходим Ваш телефон чтобы связаться с Вами",
+      email: {
+        required: "Нам необходим Ваш e-mail чтобы связаться с Вами",
+        email: "Ваш e-mail должен быть введён в формате name@domain.com",
+      },
+    },
+  });
+
+  function validateForms(form) {
+    $(form).validate({
+      rules: {
+        name: "required",
+        phone: "required",
+        email: {
+          required: true,
+          email: true,
+        },
+      },
+      messages: {
+        name: "Пожалуйста, введите своё имя",
+        phone: "Нам необходим Ваш телефон чтобы связаться с Вами",
+        email: {
+          required: "Нам необходим Ваш e-mail чтобы связаться с Вами",
+          email: "Ваш e-mail должен быть введён в формате name@domain.com",
+        },
+      },
+    });
+  }
+
+  validateForms("#consultation-form");
+  validateForms("#consultation form");
+  validateForms("#order form");
 });
